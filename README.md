@@ -1,2 +1,8 @@
 # symbols
-Greek Symbols and compose codes
+Greek Symbols for math presentation without needing to memorize LaTex. Also, the compose codes and quick reference hi-resolution jpg/png to quickly copy-paste from if you just need something quick. 
+
+When making picture diagrams, or youTube videos, or slide presentations, I find myself often needing math symbols and I constantly have to stop what I'm doing to look up the proper compose codes, then find a suitable font, then perform a quantum walk through tangent space for n minutes trying to get it all right... it seriously breaks up my work flow. Finally, I buckled down and made a cheat sheet file and a couple images I can copy from to make this fast in the future. I got all the codes by simply running 'cat /usr/share/X11/locale/$LANG/Compose' and just looked for the Latin section. I removed a bunch that I never use or that already look like regular letters since I won't need a cheatsheet for those. I'm sharing it with you for your attention and affections ;P
+
+-Adding GIMP xcf containing 142pt font on a 5,000px by 10,000px canvas containing some old Greek alphabet and their composition codes (in linux use ctrl+shift+u to enter compose codes for dead symbols). Using the text tool the symbols can be copied and pasted if that's easier in a given situation. Also, if you don't want the white background, simply remove the visibility or delete the background layer and copy or export as png to get only the text and no background color. Also, feel free to change the text color, the layer has not been flattened or rasterized so you should be able to edit the text field still.
+ 
+-jpg and png for quick copy-paste (Google Font: Brygada-1918 used in images). Images are 350ppi and 142px font size for minimal distortion when copy-pasting from images for the quick and dirty method.
